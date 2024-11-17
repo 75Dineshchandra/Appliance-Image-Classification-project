@@ -1,6 +1,6 @@
 # Appliance-Image-Classification-project
 
-all the below files have been as drive files as there are too big in size
+all the below files too big in size hence they are provided as drive files
 
 Test Images (almost 2000 samples) in drive 
 https://drive.google.com/drive/folders/1K8mPrDAaKnFH5Z56Il9954eUvMPgG75T?usp=sharing
