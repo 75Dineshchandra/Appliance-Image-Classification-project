@@ -14,5 +14,11 @@ https://drive.google.com/file/d/1zYyWDTJ8vF_N28P-fOl2eiCyOLD7Trta/view?usp=shari
 model H5
 https://drive.google.com/file/d/1nArzCdPYM9w53j4xRomryNdV_cWQVf_f/view?usp=sharing
 
-Project Demo
+Project Demo for Cloud Computing
 https://drive.google.com/file/d/1attbzoANC-CyCHonpK_RYFZZ3uv0TrR3/view?usp=sharing
+
+81 experimentation model:
+https://drive.google.com/drive/folders/1FybZy-We37BIWCyLYjLZ0HVdaAzULu6k?usp=sharing
+
+Machine learning Course Demo:
+https://www.awesomescreenshot.com/video/33996252?key=4dfaf33a89579a0b9078734547f01904
