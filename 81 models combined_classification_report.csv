@@ -1,0 +1,649 @@
+Metric,precision,recall,f1-score,support,Model
+TV,0.9743589743589743,0.95,0.9620253164556962,40.0,layers_2_opt_adam_act_relu_epochs_5.h5
+Geyser,0.9166666666666666,0.8148148148148148,0.8627450980392157,27.0,layers_2_opt_adam_act_relu_epochs_5.h5
+Refrigerator,0.8205128205128205,1.0,0.9014084507042254,32.0,layers_2_opt_adam_act_relu_epochs_5.h5
+Washing Machine,0.8333333333333334,0.8333333333333334,0.8333333333333334,18.0,layers_2_opt_adam_act_relu_epochs_5.h5
+AC,0.9230769230769231,0.75,0.8275862068965517,16.0,layers_2_opt_adam_act_relu_epochs_5.h5
+accuracy,0.8947368421052632,0.8947368421052632,0.8947368421052632,0.8947368421052632,layers_2_opt_adam_act_relu_epochs_5.h5
+macro avg,0.8935897435897436,0.8696296296296296,0.8774196810858046,133.0,layers_2_opt_adam_act_relu_epochs_5.h5
+weighted avg,0.900375939849624,0.8947368421052632,0.8936960905125316,133.0,layers_2_opt_adam_act_relu_epochs_5.h5
+TV,0.95,0.95,0.95,40.0,layers_2_opt_adam_act_relu_epochs_10.h5
+Geyser,1.0,0.8888888888888888,0.9411764705882353,27.0,layers_2_opt_adam_act_relu_epochs_10.h5
+Refrigerator,0.8823529411764706,0.9375,0.9090909090909091,32.0,layers_2_opt_adam_act_relu_epochs_10.h5
+Washing Machine,0.9473684210526315,1.0,0.972972972972973,18.0,layers_2_opt_adam_act_relu_epochs_10.h5
+AC,1.0,1.0,1.0,16.0,layers_2_opt_adam_act_relu_epochs_10.h5
+accuracy,0.9473684210526315,0.9473684210526315,0.9473684210526315,0.9473684210526315,layers_2_opt_adam_act_relu_epochs_10.h5
+macro avg,0.9559442724458205,0.9552777777777777,0.9546480705304236,133.0,layers_2_opt_adam_act_relu_epochs_10.h5
+weighted avg,0.9495332759142439,0.9473684210526315,0.9474901301526688,133.0,layers_2_opt_adam_act_relu_epochs_10.h5
+TV,0.975,0.975,0.975,40.0,layers_2_opt_adam_act_relu_epochs_20.h5
+Geyser,0.9642857142857143,1.0,0.9818181818181818,27.0,layers_2_opt_adam_act_relu_epochs_20.h5
+Refrigerator,0.96875,0.96875,0.96875,32.0,layers_2_opt_adam_act_relu_epochs_20.h5
+Washing Machine,1.0,1.0,1.0,18.0,layers_2_opt_adam_act_relu_epochs_20.h5
+AC,0.9333333333333333,0.875,0.9032258064516129,16.0,layers_2_opt_adam_act_relu_epochs_20.h5
+accuracy,0.9699248120300752,0.9699248120300752,0.9699248120300752,0.9699248120300752,layers_2_opt_adam_act_relu_epochs_20.h5
+macro avg,0.9682738095238095,0.9637499999999999,0.965758797653959,133.0,layers_2_opt_adam_act_relu_epochs_20.h5
+weighted avg,0.9696920873612602,0.9699248120300752,0.9696293519723059,133.0,layers_2_opt_adam_act_relu_epochs_20.h5
+TV,0.7391304347826086,0.85,0.7906976744186046,40.0,layers_2_opt_adam_act_tanh_epochs_5.h5
+Geyser,0.65625,0.7777777777777778,0.711864406779661,27.0,layers_2_opt_adam_act_tanh_epochs_5.h5
+Refrigerator,0.7777777777777778,0.65625,0.711864406779661,32.0,layers_2_opt_adam_act_tanh_epochs_5.h5
+Washing Machine,0.75,0.6666666666666666,0.7058823529411765,18.0,layers_2_opt_adam_act_tanh_epochs_5.h5
+AC,0.75,0.5625,0.6428571428571429,16.0,layers_2_opt_adam_act_tanh_epochs_5.h5
+accuracy,0.7293233082706767,0.7293233082706767,0.7293233082706767,0.7293233082706767,layers_2_opt_adam_act_tanh_epochs_5.h5
+macro avg,0.7346316425120774,0.7026388888888888,0.7126331967552492,133.0,layers_2_opt_adam_act_tanh_epochs_5.h5
+weighted avg,0.7343823780465656,0.7293233082706767,0.7264624331984936,133.0,layers_2_opt_adam_act_tanh_epochs_5.h5
+TV,0.9512195121951219,0.975,0.9629629629629629,40.0,layers_2_opt_adam_act_tanh_epochs_10.h5
+Geyser,0.8666666666666667,0.9629629629629629,0.9122807017543859,27.0,layers_2_opt_adam_act_tanh_epochs_10.h5
+Refrigerator,1.0,0.84375,0.9152542372881356,32.0,layers_2_opt_adam_act_tanh_epochs_10.h5
+Washing Machine,0.9473684210526315,1.0,0.972972972972973,18.0,layers_2_opt_adam_act_tanh_epochs_10.h5
+AC,1.0,1.0,1.0,16.0,layers_2_opt_adam_act_tanh_epochs_10.h5
+accuracy,0.9473684210526315,0.9473684210526315,0.9473684210526315,0.9473684210526315,layers_2_opt_adam_act_tanh_epochs_10.h5
+macro avg,0.953050919982884,0.9563425925925927,0.9526941749956915,133.0,layers_2_opt_adam_act_tanh_epochs_10.h5
+weighted avg,0.9511384365921222,0.9473684210526315,0.947005613327976,133.0,layers_2_opt_adam_act_tanh_epochs_10.h5
+TV,0.9736842105263158,0.925,0.9487179487179487,40.0,layers_2_opt_adam_act_tanh_epochs_20.h5
+Geyser,0.8387096774193549,0.9629629629629629,0.896551724137931,27.0,layers_2_opt_adam_act_tanh_epochs_20.h5
+Refrigerator,1.0,0.8125,0.896551724137931,32.0,layers_2_opt_adam_act_tanh_epochs_20.h5
+Washing Machine,0.75,1.0,0.8571428571428571,18.0,layers_2_opt_adam_act_tanh_epochs_20.h5
+AC,1.0,0.875,0.9333333333333333,16.0,layers_2_opt_adam_act_tanh_epochs_20.h5
+accuracy,0.9097744360902256,0.9097744360902256,0.9097744360902256,0.9097744360902256,layers_2_opt_adam_act_tanh_epochs_20.h5
+macro avg,0.9124787775891342,0.9150925925925926,0.9064595174940002,133.0,layers_2_opt_adam_act_tanh_epochs_20.h5
+weighted avg,0.925507742190791,0.9097744360902256,0.911332138607223,133.0,layers_2_opt_adam_act_tanh_epochs_20.h5
+TV,0.3007518796992481,1.0,0.4624277456647399,40.0,layers_2_opt_adam_act_sigmoid_epochs_5.h5
+Geyser,0.0,0.0,0.0,27.0,layers_2_opt_adam_act_sigmoid_epochs_5.h5
+Refrigerator,0.0,0.0,0.0,32.0,layers_2_opt_adam_act_sigmoid_epochs_5.h5
+Washing Machine,0.0,0.0,0.0,18.0,layers_2_opt_adam_act_sigmoid_epochs_5.h5
+AC,0.0,0.0,0.0,16.0,layers_2_opt_adam_act_sigmoid_epochs_5.h5
+accuracy,0.3007518796992481,0.3007518796992481,0.3007518796992481,0.3007518796992481,layers_2_opt_adam_act_sigmoid_epochs_5.h5
+macro avg,0.06015037593984962,0.2,0.09248554913294797,133.0,layers_2_opt_adam_act_sigmoid_epochs_5.h5
+weighted avg,0.090451693142631,0.3007518796992481,0.13907601373375633,133.0,layers_2_opt_adam_act_sigmoid_epochs_5.h5
+TV,0.3007518796992481,1.0,0.4624277456647399,40.0,layers_2_opt_adam_act_sigmoid_epochs_10.h5
+Geyser,0.0,0.0,0.0,27.0,layers_2_opt_adam_act_sigmoid_epochs_10.h5
+Refrigerator,0.0,0.0,0.0,32.0,layers_2_opt_adam_act_sigmoid_epochs_10.h5
+Washing Machine,0.0,0.0,0.0,18.0,layers_2_opt_adam_act_sigmoid_epochs_10.h5
+AC,0.0,0.0,0.0,16.0,layers_2_opt_adam_act_sigmoid_epochs_10.h5
+accuracy,0.3007518796992481,0.3007518796992481,0.3007518796992481,0.3007518796992481,layers_2_opt_adam_act_sigmoid_epochs_10.h5
+macro avg,0.06015037593984962,0.2,0.09248554913294797,133.0,layers_2_opt_adam_act_sigmoid_epochs_10.h5
+weighted avg,0.090451693142631,0.3007518796992481,0.13907601373375633,133.0,layers_2_opt_adam_act_sigmoid_epochs_10.h5
+TV,0.3007518796992481,1.0,0.4624277456647399,40.0,layers_2_opt_adam_act_sigmoid_epochs_20.h5
+Geyser,0.0,0.0,0.0,27.0,layers_2_opt_adam_act_sigmoid_epochs_20.h5
+Refrigerator,0.0,0.0,0.0,32.0,layers_2_opt_adam_act_sigmoid_epochs_20.h5
+Washing Machine,0.0,0.0,0.0,18.0,layers_2_opt_adam_act_sigmoid_epochs_20.h5
+AC,0.0,0.0,0.0,16.0,layers_2_opt_adam_act_sigmoid_epochs_20.h5
+accuracy,0.3007518796992481,0.3007518796992481,0.3007518796992481,0.3007518796992481,layers_2_opt_adam_act_sigmoid_epochs_20.h5
+macro avg,0.06015037593984962,0.2,0.09248554913294797,133.0,layers_2_opt_adam_act_sigmoid_epochs_20.h5
+weighted avg,0.090451693142631,0.3007518796992481,0.13907601373375633,133.0,layers_2_opt_adam_act_sigmoid_epochs_20.h5
+TV,0.813953488372093,0.875,0.8433734939759037,40.0,layers_2_opt_RMSprop_act_relu_epochs_5.h5
+Geyser,0.6052631578947368,0.8518518518518519,0.7076923076923077,27.0,layers_2_opt_RMSprop_act_relu_epochs_5.h5
+Refrigerator,0.7666666666666667,0.71875,0.7419354838709677,32.0,layers_2_opt_RMSprop_act_relu_epochs_5.h5
+Washing Machine,1.0,0.6666666666666666,0.8,18.0,layers_2_opt_RMSprop_act_relu_epochs_5.h5
+AC,1.0,0.625,0.7692307692307693,16.0,layers_2_opt_RMSprop_act_relu_epochs_5.h5
+accuracy,0.7744360902255639,0.7744360902255639,0.7744360902255639,0.7744360902255639,layers_2_opt_RMSprop_act_relu_epochs_5.h5
+macro avg,0.8371766625866993,0.7474537037037037,0.7724464109539897,133.0,layers_2_opt_RMSprop_act_relu_epochs_5.h5
+weighted avg,0.8077712641456762,0.7744360902255639,0.7766335327691107,133.0,layers_2_opt_RMSprop_act_relu_epochs_5.h5
+TV,0.9285714285714286,0.975,0.9512195121951219,40.0,layers_2_opt_RMSprop_act_relu_epochs_10.h5
+Geyser,0.9629629629629629,0.9629629629629629,0.9629629629629629,27.0,layers_2_opt_RMSprop_act_relu_epochs_10.h5
+Refrigerator,0.9090909090909091,0.9375,0.9230769230769231,32.0,layers_2_opt_RMSprop_act_relu_epochs_10.h5
+Washing Machine,1.0,0.9444444444444444,0.9714285714285714,18.0,layers_2_opt_RMSprop_act_relu_epochs_10.h5
+AC,1.0,0.875,0.9333333333333333,16.0,layers_2_opt_RMSprop_act_relu_epochs_10.h5
+accuracy,0.9473684210526315,0.9473684210526315,0.9473684210526315,0.9473684210526315,layers_2_opt_RMSprop_act_relu_epochs_10.h5
+macro avg,0.9601250601250602,0.9389814814814814,0.9484042605993827,133.0,layers_2_opt_RMSprop_act_relu_epochs_10.h5
+weighted avg,0.9491260619080167,0.9473684210526315,0.9474157116189025,133.0,layers_2_opt_RMSprop_act_relu_epochs_10.h5
+TV,0.9047619047619048,0.95,0.926829268292683,40.0,layers_2_opt_RMSprop_act_relu_epochs_20.h5
+Geyser,0.9629629629629629,0.9629629629629629,0.9629629629629629,27.0,layers_2_opt_RMSprop_act_relu_epochs_20.h5
+Refrigerator,0.9696969696969697,1.0,0.9846153846153847,32.0,layers_2_opt_RMSprop_act_relu_epochs_20.h5
+Washing Machine,1.0,0.8333333333333334,0.9090909090909091,18.0,layers_2_opt_RMSprop_act_relu_epochs_20.h5
+AC,0.75,0.75,0.75,16.0,layers_2_opt_RMSprop_act_relu_epochs_20.h5
+accuracy,0.924812030075188,0.924812030075188,0.924812030075188,0.924812030075188,layers_2_opt_RMSprop_act_relu_epochs_20.h5
+macro avg,0.9174843674843676,0.8992592592592594,0.906699704992388,133.0,layers_2_opt_RMSprop_act_relu_epochs_20.h5
+weighted avg,0.9264720242163851,0.924812030075188,0.9243947323536541,133.0,layers_2_opt_RMSprop_act_relu_epochs_20.h5
+TV,0.6938775510204082,0.85,0.7640449438202247,40.0,layers_2_opt_RMSprop_act_tanh_epochs_5.h5
+Geyser,0.7857142857142857,0.8148148148148148,0.8,27.0,layers_2_opt_RMSprop_act_tanh_epochs_5.h5
+Refrigerator,0.9375,0.46875,0.625,32.0,layers_2_opt_RMSprop_act_tanh_epochs_5.h5
+Washing Machine,0.8823529411764706,0.8333333333333334,0.8571428571428571,18.0,layers_2_opt_RMSprop_act_tanh_epochs_5.h5
+AC,0.5217391304347826,0.75,0.6153846153846154,16.0,layers_2_opt_RMSprop_act_tanh_epochs_5.h5
+accuracy,0.7368421052631579,0.7368421052631579,0.7368421052631579,0.7368421052631579,layers_2_opt_RMSprop_act_tanh_epochs_5.h5
+macro avg,0.7642367816691895,0.7433796296296296,0.7323144832695394,133.0,layers_2_opt_RMSprop_act_tanh_epochs_5.h5
+weighted avg,0.7759365923551506,0.7368421052631579,0.7326054362972501,133.0,layers_2_opt_RMSprop_act_tanh_epochs_5.h5
+TV,0.9069767441860465,0.975,0.9397590361445783,40.0,layers_2_opt_RMSprop_act_tanh_epochs_10.h5
+Geyser,0.9615384615384616,0.9259259259259259,0.9433962264150944,27.0,layers_2_opt_RMSprop_act_tanh_epochs_10.h5
+Refrigerator,0.9615384615384616,0.78125,0.8620689655172413,32.0,layers_2_opt_RMSprop_act_tanh_epochs_10.h5
+Washing Machine,0.8181818181818182,1.0,0.9,18.0,layers_2_opt_RMSprop_act_tanh_epochs_10.h5
+AC,0.875,0.875,0.875,16.0,layers_2_opt_RMSprop_act_tanh_epochs_10.h5
+accuracy,0.9097744360902256,0.9097744360902256,0.9097744360902256,0.9097744360902256,layers_2_opt_RMSprop_act_tanh_epochs_10.h5
+macro avg,0.9046470970889576,0.9114351851851852,0.9040448456153829,133.0,layers_2_opt_RMSprop_act_tanh_epochs_10.h5
+weighted avg,0.915316629514916,0.9097744360902256,0.9086335823724992,133.0,layers_2_opt_RMSprop_act_tanh_epochs_10.h5
+TV,0.9512195121951219,0.975,0.9629629629629629,40.0,layers_2_opt_RMSprop_act_tanh_epochs_20.h5
+Geyser,1.0,0.9259259259259259,0.9615384615384616,27.0,layers_2_opt_RMSprop_act_tanh_epochs_20.h5
+Refrigerator,0.90625,0.90625,0.90625,32.0,layers_2_opt_RMSprop_act_tanh_epochs_20.h5
+Washing Machine,0.9,1.0,0.9473684210526315,18.0,layers_2_opt_RMSprop_act_tanh_epochs_20.h5
+AC,0.8666666666666667,0.8125,0.8387096774193549,16.0,layers_2_opt_RMSprop_act_tanh_epochs_20.h5
+accuracy,0.9323308270676691,0.9323308270676691,0.9323308270676691,0.9323308270676691,layers_2_opt_RMSprop_act_tanh_epochs_20.h5
+macro avg,0.9248272357723577,0.9239351851851852,0.923365904594682,133.0,layers_2_opt_RMSprop_act_tanh_epochs_20.h5
+weighted avg,0.9331988507855004,0.9323308270676691,0.9319702511106318,133.0,layers_2_opt_RMSprop_act_tanh_epochs_20.h5
+TV,0.3007518796992481,1.0,0.4624277456647399,40.0,layers_2_opt_RMSprop_act_sigmoid_epochs_5.h5
+Geyser,0.0,0.0,0.0,27.0,layers_2_opt_RMSprop_act_sigmoid_epochs_5.h5
+Refrigerator,0.0,0.0,0.0,32.0,layers_2_opt_RMSprop_act_sigmoid_epochs_5.h5
+Washing Machine,0.0,0.0,0.0,18.0,layers_2_opt_RMSprop_act_sigmoid_epochs_5.h5
+AC,0.0,0.0,0.0,16.0,layers_2_opt_RMSprop_act_sigmoid_epochs_5.h5
+accuracy,0.3007518796992481,0.3007518796992481,0.3007518796992481,0.3007518796992481,layers_2_opt_RMSprop_act_sigmoid_epochs_5.h5
+macro avg,0.06015037593984962,0.2,0.09248554913294797,133.0,layers_2_opt_RMSprop_act_sigmoid_epochs_5.h5
+weighted avg,0.090451693142631,0.3007518796992481,0.13907601373375633,133.0,layers_2_opt_RMSprop_act_sigmoid_epochs_5.h5
+TV,0.3007518796992481,1.0,0.4624277456647399,40.0,layers_2_opt_RMSprop_act_sigmoid_epochs_10.h5
+Geyser,0.0,0.0,0.0,27.0,layers_2_opt_RMSprop_act_sigmoid_epochs_10.h5
+Refrigerator,0.0,0.0,0.0,32.0,layers_2_opt_RMSprop_act_sigmoid_epochs_10.h5
+Washing Machine,0.0,0.0,0.0,18.0,layers_2_opt_RMSprop_act_sigmoid_epochs_10.h5
+AC,0.0,0.0,0.0,16.0,layers_2_opt_RMSprop_act_sigmoid_epochs_10.h5
+accuracy,0.3007518796992481,0.3007518796992481,0.3007518796992481,0.3007518796992481,layers_2_opt_RMSprop_act_sigmoid_epochs_10.h5
+macro avg,0.06015037593984962,0.2,0.09248554913294797,133.0,layers_2_opt_RMSprop_act_sigmoid_epochs_10.h5
+weighted avg,0.090451693142631,0.3007518796992481,0.13907601373375633,133.0,layers_2_opt_RMSprop_act_sigmoid_epochs_10.h5
+TV,0.3007518796992481,1.0,0.4624277456647399,40.0,layers_2_opt_RMSprop_act_sigmoid_epochs_20.h5
+Geyser,0.0,0.0,0.0,27.0,layers_2_opt_RMSprop_act_sigmoid_epochs_20.h5
+Refrigerator,0.0,0.0,0.0,32.0,layers_2_opt_RMSprop_act_sigmoid_epochs_20.h5
+Washing Machine,0.0,0.0,0.0,18.0,layers_2_opt_RMSprop_act_sigmoid_epochs_20.h5
+AC,0.0,0.0,0.0,16.0,layers_2_opt_RMSprop_act_sigmoid_epochs_20.h5
+accuracy,0.3007518796992481,0.3007518796992481,0.3007518796992481,0.3007518796992481,layers_2_opt_RMSprop_act_sigmoid_epochs_20.h5
+macro avg,0.06015037593984962,0.2,0.09248554913294797,133.0,layers_2_opt_RMSprop_act_sigmoid_epochs_20.h5
+weighted avg,0.090451693142631,0.3007518796992481,0.13907601373375633,133.0,layers_2_opt_RMSprop_act_sigmoid_epochs_20.h5
+TV,0.7894736842105263,0.75,0.7692307692307693,40.0,layers_2_opt_SGD_act_relu_epochs_5.h5
+Geyser,0.6538461538461539,0.6296296296296297,0.6415094339622641,27.0,layers_2_opt_SGD_act_relu_epochs_5.h5
+Refrigerator,0.5172413793103449,0.9375,0.6666666666666666,32.0,layers_2_opt_SGD_act_relu_epochs_5.h5
+Washing Machine,0.5,0.2222222222222222,0.3076923076923077,18.0,layers_2_opt_SGD_act_relu_epochs_5.h5
+AC,0.6666666666666666,0.125,0.21052631578947367,16.0,layers_2_opt_SGD_act_relu_epochs_5.h5
+accuracy,0.6240601503759399,0.6240601503759399,0.6240601503759399,0.6240601503759399,layers_2_opt_SGD_act_relu_epochs_5.h5
+macro avg,0.6254455768067383,0.5328703703703704,0.5191250986682963,133.0,layers_2_opt_SGD_act_relu_epochs_5.h5
+weighted avg,0.6424901077207889,0.6240601503759399,0.5889488827867544,133.0,layers_2_opt_SGD_act_relu_epochs_5.h5
+TV,0.75,0.975,0.8478260869565217,40.0,layers_2_opt_SGD_act_relu_epochs_10.h5
+Geyser,0.8518518518518519,0.8518518518518519,0.8518518518518519,27.0,layers_2_opt_SGD_act_relu_epochs_10.h5
+Refrigerator,0.9333333333333333,0.875,0.9032258064516129,32.0,layers_2_opt_SGD_act_relu_epochs_10.h5
+Washing Machine,0.9333333333333333,0.7777777777777778,0.8484848484848485,18.0,layers_2_opt_SGD_act_relu_epochs_10.h5
+AC,1.0,0.5625,0.72,16.0,layers_2_opt_SGD_act_relu_epochs_10.h5
+accuracy,0.849624060150376,0.849624060150376,0.849624060150376,0.849624060150376,layers_2_opt_SGD_act_relu_epochs_10.h5
+macro avg,0.8937037037037037,0.8084259259259259,0.834277718748967,133.0,layers_2_opt_SGD_act_relu_epochs_10.h5
+weighted avg,0.8696741854636592,0.849624060150376,0.846684184642404,133.0,layers_2_opt_SGD_act_relu_epochs_10.h5
+TV,0.975,0.975,0.975,40.0,layers_2_opt_SGD_act_relu_epochs_20.h5
+Geyser,0.9310344827586207,1.0,0.9642857142857143,27.0,layers_2_opt_SGD_act_relu_epochs_20.h5
+Refrigerator,0.96875,0.96875,0.96875,32.0,layers_2_opt_SGD_act_relu_epochs_20.h5
+Washing Machine,0.9444444444444444,0.9444444444444444,0.9444444444444444,18.0,layers_2_opt_SGD_act_relu_epochs_20.h5
+AC,0.9285714285714286,0.8125,0.8666666666666667,16.0,layers_2_opt_SGD_act_relu_epochs_20.h5
+accuracy,0.9548872180451128,0.9548872180451128,0.9548872180451128,0.9548872180451128,layers_2_opt_SGD_act_relu_epochs_20.h5
+macro avg,0.9495600711548988,0.9401388888888889,0.943829365079365,133.0,layers_2_opt_SGD_act_relu_epochs_20.h5
+weighted avg,0.9548501796362828,0.9548872180451128,0.9541532402434658,133.0,layers_2_opt_SGD_act_relu_epochs_20.h5
+TV,0.6808510638297872,0.8,0.735632183908046,40.0,layers_2_opt_SGD_act_tanh_epochs_5.h5
+Geyser,0.5348837209302325,0.8518518518518519,0.6571428571428571,27.0,layers_2_opt_SGD_act_tanh_epochs_5.h5
+Refrigerator,0.6190476190476191,0.40625,0.49056603773584906,32.0,layers_2_opt_SGD_act_tanh_epochs_5.h5
+Washing Machine,0.75,0.3333333333333333,0.46153846153846156,18.0,layers_2_opt_SGD_act_tanh_epochs_5.h5
+AC,0.5,0.4375,0.4666666666666667,16.0,layers_2_opt_SGD_act_tanh_epochs_5.h5
+accuracy,0.6090225563909775,0.6090225563909775,0.6090225563909775,0.6090225563909775,layers_2_opt_SGD_act_tanh_epochs_5.h5
+macro avg,0.6169564807615278,0.565787037037037,0.5623092413983761,133.0,layers_2_opt_SGD_act_tanh_epochs_5.h5
+weighted avg,0.623950577652869,0.6090225563909775,0.5912828321886099,133.0,layers_2_opt_SGD_act_tanh_epochs_5.h5
+TV,0.72,0.9,0.8,40.0,layers_2_opt_SGD_act_tanh_epochs_10.h5
+Geyser,0.7586206896551724,0.8148148148148148,0.7857142857142857,27.0,layers_2_opt_SGD_act_tanh_epochs_10.h5
+Refrigerator,0.875,0.65625,0.75,32.0,layers_2_opt_SGD_act_tanh_epochs_10.h5
+Washing Machine,0.8666666666666667,0.7222222222222222,0.7878787878787878,18.0,layers_2_opt_SGD_act_tanh_epochs_10.h5
+AC,0.6666666666666666,0.625,0.6451612903225806,16.0,layers_2_opt_SGD_act_tanh_epochs_10.h5
+accuracy,0.7669172932330827,0.7669172932330827,0.7669172932330827,0.7669172932330827,layers_2_opt_SGD_act_tanh_epochs_10.h5
+macro avg,0.7773908045977012,0.7436574074074074,0.7537508727831308,133.0,layers_2_opt_SGD_act_tanh_epochs_10.h5
+weighted avg,0.7785671074237318,0.7669172932330827,0.764802139408009,133.0,layers_2_opt_SGD_act_tanh_epochs_10.h5
+TV,0.8372093023255814,0.9,0.8674698795180723,40.0,layers_2_opt_SGD_act_tanh_epochs_20.h5
+Geyser,0.9545454545454546,0.7777777777777778,0.8571428571428571,27.0,layers_2_opt_SGD_act_tanh_epochs_20.h5
+Refrigerator,0.9655172413793104,0.875,0.9180327868852459,32.0,layers_2_opt_SGD_act_tanh_epochs_20.h5
+Washing Machine,0.8095238095238095,0.9444444444444444,0.8717948717948718,18.0,layers_2_opt_SGD_act_tanh_epochs_20.h5
+AC,0.6666666666666666,0.75,0.7058823529411765,16.0,layers_2_opt_SGD_act_tanh_epochs_20.h5
+accuracy,0.8571428571428571,0.8571428571428571,0.8571428571428571,0.8571428571428571,layers_2_opt_SGD_act_tanh_epochs_20.h5
+macro avg,0.8466924948881646,0.8494444444444446,0.8440645496564446,133.0,layers_2_opt_SGD_act_tanh_epochs_20.h5
+weighted avg,0.8676371904359677,0.8571428571428571,0.8586851642351461,133.0,layers_2_opt_SGD_act_tanh_epochs_20.h5
+TV,0.3007518796992481,1.0,0.4624277456647399,40.0,layers_2_opt_SGD_act_sigmoid_epochs_5.h5
+Geyser,0.0,0.0,0.0,27.0,layers_2_opt_SGD_act_sigmoid_epochs_5.h5
+Refrigerator,0.0,0.0,0.0,32.0,layers_2_opt_SGD_act_sigmoid_epochs_5.h5
+Washing Machine,0.0,0.0,0.0,18.0,layers_2_opt_SGD_act_sigmoid_epochs_5.h5
+AC,0.0,0.0,0.0,16.0,layers_2_opt_SGD_act_sigmoid_epochs_5.h5
+accuracy,0.3007518796992481,0.3007518796992481,0.3007518796992481,0.3007518796992481,layers_2_opt_SGD_act_sigmoid_epochs_5.h5
+macro avg,0.06015037593984962,0.2,0.09248554913294797,133.0,layers_2_opt_SGD_act_sigmoid_epochs_5.h5
+weighted avg,0.090451693142631,0.3007518796992481,0.13907601373375633,133.0,layers_2_opt_SGD_act_sigmoid_epochs_5.h5
+TV,0.3007518796992481,1.0,0.4624277456647399,40.0,layers_2_opt_SGD_act_sigmoid_epochs_10.h5
+Geyser,0.0,0.0,0.0,27.0,layers_2_opt_SGD_act_sigmoid_epochs_10.h5
+Refrigerator,0.0,0.0,0.0,32.0,layers_2_opt_SGD_act_sigmoid_epochs_10.h5
+Washing Machine,0.0,0.0,0.0,18.0,layers_2_opt_SGD_act_sigmoid_epochs_10.h5
+AC,0.0,0.0,0.0,16.0,layers_2_opt_SGD_act_sigmoid_epochs_10.h5
+accuracy,0.3007518796992481,0.3007518796992481,0.3007518796992481,0.3007518796992481,layers_2_opt_SGD_act_sigmoid_epochs_10.h5
+macro avg,0.06015037593984962,0.2,0.09248554913294797,133.0,layers_2_opt_SGD_act_sigmoid_epochs_10.h5
+weighted avg,0.090451693142631,0.3007518796992481,0.13907601373375633,133.0,layers_2_opt_SGD_act_sigmoid_epochs_10.h5
+TV,0.3007518796992481,1.0,0.4624277456647399,40.0,layers_2_opt_SGD_act_sigmoid_epochs_20.h5
+Geyser,0.0,0.0,0.0,27.0,layers_2_opt_SGD_act_sigmoid_epochs_20.h5
+Refrigerator,0.0,0.0,0.0,32.0,layers_2_opt_SGD_act_sigmoid_epochs_20.h5
+Washing Machine,0.0,0.0,0.0,18.0,layers_2_opt_SGD_act_sigmoid_epochs_20.h5
+AC,0.0,0.0,0.0,16.0,layers_2_opt_SGD_act_sigmoid_epochs_20.h5
+accuracy,0.3007518796992481,0.3007518796992481,0.3007518796992481,0.3007518796992481,layers_2_opt_SGD_act_sigmoid_epochs_20.h5
+macro avg,0.06015037593984962,0.2,0.09248554913294797,133.0,layers_2_opt_SGD_act_sigmoid_epochs_20.h5
+weighted avg,0.090451693142631,0.3007518796992481,0.13907601373375633,133.0,layers_2_opt_SGD_act_sigmoid_epochs_20.h5
+TV,0.9487179487179487,0.925,0.9367088607594937,40.0,layers_3_opt_adam_act_relu_epochs_5.h5
+Geyser,0.9565217391304348,0.8148148148148148,0.88,27.0,layers_3_opt_adam_act_relu_epochs_5.h5
+Refrigerator,0.9411764705882353,1.0,0.9696969696969697,32.0,layers_3_opt_adam_act_relu_epochs_5.h5
+Washing Machine,0.72,1.0,0.8372093023255814,18.0,layers_3_opt_adam_act_relu_epochs_5.h5
+AC,0.8333333333333334,0.625,0.7142857142857143,16.0,layers_3_opt_adam_act_relu_epochs_5.h5
+accuracy,0.8947368421052632,0.8947368421052632,0.8947368421052632,0.8947368421052632,layers_3_opt_adam_act_relu_epochs_5.h5
+macro avg,0.8799498983539904,0.8729629629629629,0.8675801694135519,133.0,layers_3_opt_adam_act_relu_epochs_5.h5
+weighted avg,0.9036525210330566,0.8947368421052632,0.8929097468504863,133.0,layers_3_opt_adam_act_relu_epochs_5.h5
+TV,0.9512195121951219,0.975,0.9629629629629629,40.0,layers_3_opt_adam_act_relu_epochs_10.h5
+Geyser,0.9615384615384616,0.9259259259259259,0.9433962264150944,27.0,layers_3_opt_adam_act_relu_epochs_10.h5
+Refrigerator,0.9117647058823529,0.96875,0.9393939393939394,32.0,layers_3_opt_adam_act_relu_epochs_10.h5
+Washing Machine,1.0,1.0,1.0,18.0,layers_3_opt_adam_act_relu_epochs_10.h5
+AC,1.0,0.875,0.9333333333333333,16.0,layers_3_opt_adam_act_relu_epochs_10.h5
+accuracy,0.9548872180451128,0.9548872180451128,0.9548872180451128,0.9548872180451128,layers_3_opt_adam_act_relu_epochs_10.h5
+macro avg,0.9649045359231874,0.9489351851851853,0.9558172924210661,133.0,layers_3_opt_adam_act_relu_epochs_10.h5
+weighted avg,0.956291650658486,0.9548872180451128,0.9547680904185374,133.0,layers_3_opt_adam_act_relu_epochs_10.h5
+TV,1.0,0.975,0.9873417721518988,40.0,layers_3_opt_adam_act_relu_epochs_20.h5
+Geyser,0.96,0.8888888888888888,0.9230769230769231,27.0,layers_3_opt_adam_act_relu_epochs_20.h5
+Refrigerator,0.9411764705882353,1.0,0.9696969696969697,32.0,layers_3_opt_adam_act_relu_epochs_20.h5
+Washing Machine,0.9473684210526315,1.0,0.972972972972973,18.0,layers_3_opt_adam_act_relu_epochs_20.h5
+AC,1.0,1.0,1.0,16.0,layers_3_opt_adam_act_relu_epochs_20.h5
+accuracy,0.9699248120300752,0.9699248120300752,0.9699248120300752,0.9699248120300752,layers_3_opt_adam_act_relu_epochs_20.h5
+macro avg,0.9697089783281733,0.9727777777777777,0.970617727579753,133.0,layers_3_opt_adam_act_relu_epochs_20.h5
+weighted avg,0.9706035987802323,0.9699248120300752,0.9696283034057851,133.0,layers_3_opt_adam_act_relu_epochs_20.h5
+TV,0.9047619047619048,0.95,0.926829268292683,40.0,layers_3_opt_adam_act_tanh_epochs_5.h5
+Geyser,1.0,0.8148148148148148,0.8979591836734694,27.0,layers_3_opt_adam_act_tanh_epochs_5.h5
+Refrigerator,0.9375,0.9375,0.9375,32.0,layers_3_opt_adam_act_tanh_epochs_5.h5
+Washing Machine,0.8095238095238095,0.9444444444444444,0.8717948717948718,18.0,layers_3_opt_adam_act_tanh_epochs_5.h5
+AC,0.875,0.875,0.875,16.0,layers_3_opt_adam_act_tanh_epochs_5.h5
+accuracy,0.9097744360902256,0.9097744360902256,0.9097744360902256,0.9097744360902256,layers_3_opt_adam_act_tanh_epochs_5.h5
+macro avg,0.9053571428571429,0.9043518518518517,0.9018166647522048,133.0,layers_3_opt_adam_act_tanh_epochs_5.h5
+weighted avg,0.9155030433225921,0.9097744360902256,0.9098524540090127,133.0,layers_3_opt_adam_act_tanh_epochs_5.h5
+TV,1.0,0.95,0.9743589743589743,40.0,layers_3_opt_adam_act_tanh_epochs_10.h5
+Geyser,0.8275862068965517,0.8888888888888888,0.8571428571428571,27.0,layers_3_opt_adam_act_tanh_epochs_10.h5
+Refrigerator,0.8518518518518519,0.71875,0.7796610169491526,32.0,layers_3_opt_adam_act_tanh_epochs_10.h5
+Washing Machine,0.7391304347826086,0.9444444444444444,0.8292682926829268,18.0,layers_3_opt_adam_act_tanh_epochs_10.h5
+AC,0.8125,0.8125,0.8125,16.0,layers_3_opt_adam_act_tanh_epochs_10.h5
+accuracy,0.8646616541353384,0.8646616541353384,0.8646616541353384,0.8646616541353384,layers_3_opt_adam_act_tanh_epochs_10.h5
+macro avg,0.8462136987062024,0.8629166666666667,0.850586228226782,133.0,layers_3_opt_adam_act_tanh_epochs_10.h5
+weighted avg,0.8714919900116775,0.8646616541353384,0.8646105107359525,133.0,layers_3_opt_adam_act_tanh_epochs_10.h5
+TV,0.9285714285714286,0.975,0.9512195121951219,40.0,layers_3_opt_adam_act_tanh_epochs_20.h5
+Geyser,0.896551724137931,0.9629629629629629,0.9285714285714286,27.0,layers_3_opt_adam_act_tanh_epochs_20.h5
+Refrigerator,0.9666666666666667,0.90625,0.9354838709677419,32.0,layers_3_opt_adam_act_tanh_epochs_20.h5
+Washing Machine,0.9411764705882353,0.8888888888888888,0.9142857142857143,18.0,layers_3_opt_adam_act_tanh_epochs_20.h5
+AC,0.9333333333333333,0.875,0.9032258064516129,16.0,layers_3_opt_adam_act_tanh_epochs_20.h5
+accuracy,0.9323308270676691,0.9323308270676691,0.9323308270676691,0.9323308270676691,layers_3_opt_adam_act_tanh_epochs_20.h5
+macro avg,0.933259924659519,0.9216203703703704,0.9265572664943239,133.0,layers_3_opt_adam_act_tanh_epochs_20.h5
+weighted avg,0.9335157656529036,0.9323308270676691,0.932063523989247,133.0,layers_3_opt_adam_act_tanh_epochs_20.h5
+TV,0.3007518796992481,1.0,0.4624277456647399,40.0,layers_3_opt_adam_act_sigmoid_epochs_5.h5
+Geyser,0.0,0.0,0.0,27.0,layers_3_opt_adam_act_sigmoid_epochs_5.h5
+Refrigerator,0.0,0.0,0.0,32.0,layers_3_opt_adam_act_sigmoid_epochs_5.h5
+Washing Machine,0.0,0.0,0.0,18.0,layers_3_opt_adam_act_sigmoid_epochs_5.h5
+AC,0.0,0.0,0.0,16.0,layers_3_opt_adam_act_sigmoid_epochs_5.h5
+accuracy,0.3007518796992481,0.3007518796992481,0.3007518796992481,0.3007518796992481,layers_3_opt_adam_act_sigmoid_epochs_5.h5
+macro avg,0.06015037593984962,0.2,0.09248554913294797,133.0,layers_3_opt_adam_act_sigmoid_epochs_5.h5
+weighted avg,0.090451693142631,0.3007518796992481,0.13907601373375633,133.0,layers_3_opt_adam_act_sigmoid_epochs_5.h5
+TV,0.3007518796992481,1.0,0.4624277456647399,40.0,layers_3_opt_adam_act_sigmoid_epochs_10.h5
+Geyser,0.0,0.0,0.0,27.0,layers_3_opt_adam_act_sigmoid_epochs_10.h5
+Refrigerator,0.0,0.0,0.0,32.0,layers_3_opt_adam_act_sigmoid_epochs_10.h5
+Washing Machine,0.0,0.0,0.0,18.0,layers_3_opt_adam_act_sigmoid_epochs_10.h5
+AC,0.0,0.0,0.0,16.0,layers_3_opt_adam_act_sigmoid_epochs_10.h5
+accuracy,0.3007518796992481,0.3007518796992481,0.3007518796992481,0.3007518796992481,layers_3_opt_adam_act_sigmoid_epochs_10.h5
+macro avg,0.06015037593984962,0.2,0.09248554913294797,133.0,layers_3_opt_adam_act_sigmoid_epochs_10.h5
+weighted avg,0.090451693142631,0.3007518796992481,0.13907601373375633,133.0,layers_3_opt_adam_act_sigmoid_epochs_10.h5
+TV,0.75,0.825,0.7857142857142857,40.0,layers_3_opt_adam_act_sigmoid_epochs_20.h5
+Geyser,0.6774193548387096,0.7777777777777778,0.7241379310344828,27.0,layers_3_opt_adam_act_sigmoid_epochs_20.h5
+Refrigerator,0.7419354838709677,0.71875,0.7301587301587301,32.0,layers_3_opt_adam_act_sigmoid_epochs_20.h5
+Washing Machine,0.75,0.6666666666666666,0.7058823529411765,18.0,layers_3_opt_adam_act_sigmoid_epochs_20.h5
+AC,0.8181818181818182,0.5625,0.6666666666666666,16.0,layers_3_opt_adam_act_sigmoid_epochs_20.h5
+accuracy,0.7368421052631579,0.7368421052631579,0.7368421052631579,0.7368421052631579,layers_3_opt_adam_act_sigmoid_epochs_20.h5
+macro avg,0.7475073313782991,0.7101388888888889,0.7225119933030684,133.0,layers_3_opt_adam_act_sigmoid_epochs_20.h5
+weighted avg,0.7415275725971822,0.7368421052631579,0.7347212327157119,133.0,layers_3_opt_adam_act_sigmoid_epochs_20.h5
+TV,0.9069767441860465,0.975,0.9397590361445783,40.0,layers_3_opt_RMSprop_act_relu_epochs_5.h5
+Geyser,0.7878787878787878,0.9629629629629629,0.8666666666666667,27.0,layers_3_opt_RMSprop_act_relu_epochs_5.h5
+Refrigerator,1.0,0.8125,0.896551724137931,32.0,layers_3_opt_RMSprop_act_relu_epochs_5.h5
+Washing Machine,1.0,0.9444444444444444,0.9714285714285714,18.0,layers_3_opt_RMSprop_act_relu_epochs_5.h5
+AC,0.9285714285714286,0.8125,0.8666666666666667,16.0,layers_3_opt_RMSprop_act_relu_epochs_5.h5
+accuracy,0.9097744360902256,0.9097744360902256,0.9097744360902256,0.9097744360902256,layers_3_opt_RMSprop_act_relu_epochs_5.h5
+macro avg,0.9246853921272526,0.9014814814814814,0.9082145330088828,133.0,layers_3_opt_RMSprop_act_relu_epochs_5.h5
+weighted avg,0.9203679691527218,0.9097744360902256,0.9100180268464502,133.0,layers_3_opt_RMSprop_act_relu_epochs_5.h5
+TV,0.851063829787234,1.0,0.9195402298850575,40.0,layers_3_opt_RMSprop_act_relu_epochs_10.h5
+Geyser,0.9259259259259259,0.9259259259259259,0.9259259259259259,27.0,layers_3_opt_RMSprop_act_relu_epochs_10.h5
+Refrigerator,1.0,0.84375,0.9152542372881356,32.0,layers_3_opt_RMSprop_act_relu_epochs_10.h5
+Washing Machine,0.9411764705882353,0.8888888888888888,0.9142857142857143,18.0,layers_3_opt_RMSprop_act_relu_epochs_10.h5
+AC,1.0,0.9375,0.967741935483871,16.0,layers_3_opt_RMSprop_act_relu_epochs_10.h5
+accuracy,0.924812030075188,0.924812030075188,0.924812030075188,0.924812030075188,layers_3_opt_RMSprop_act_relu_epochs_10.h5
+macro avg,0.9436332452602791,0.919212962962963,0.9285496085737407,133.0,layers_3_opt_RMSprop_act_relu_epochs_10.h5
+weighted avg,0.9322084936998315,0.924812030075188,0.924892921906071,133.0,layers_3_opt_RMSprop_act_relu_epochs_10.h5
+TV,1.0,0.925,0.961038961038961,40.0,layers_3_opt_RMSprop_act_relu_epochs_20.h5
+Geyser,0.9629629629629629,0.9629629629629629,0.9629629629629629,27.0,layers_3_opt_RMSprop_act_relu_epochs_20.h5
+Refrigerator,0.9142857142857143,1.0,0.9552238805970149,32.0,layers_3_opt_RMSprop_act_relu_epochs_20.h5
+Washing Machine,0.9473684210526315,1.0,0.972972972972973,18.0,layers_3_opt_RMSprop_act_relu_epochs_20.h5
+AC,1.0,0.9375,0.967741935483871,16.0,layers_3_opt_RMSprop_act_relu_epochs_20.h5
+accuracy,0.9624060150375939,0.9624060150375939,0.9624060150375939,0.9624060150375939,layers_3_opt_RMSprop_act_relu_epochs_20.h5
+macro avg,0.9649234196602616,0.9650925925925925,0.9639881426111566,133.0,layers_3_opt_RMSprop_act_relu_epochs_20.h5
+weighted avg,0.9647351461360166,0.9624060150375939,0.9624519330971305,133.0,layers_3_opt_RMSprop_act_relu_epochs_20.h5
+TV,0.0,0.0,0.0,40.0,layers_3_opt_RMSprop_act_tanh_epochs_5.h5
+Geyser,0.0,0.0,0.0,27.0,layers_3_opt_RMSprop_act_tanh_epochs_5.h5
+Refrigerator,0.24060150375939848,1.0,0.3878787878787879,32.0,layers_3_opt_RMSprop_act_tanh_epochs_5.h5
+Washing Machine,0.0,0.0,0.0,18.0,layers_3_opt_RMSprop_act_tanh_epochs_5.h5
+AC,0.0,0.0,0.0,16.0,layers_3_opt_RMSprop_act_tanh_epochs_5.h5
+accuracy,0.24060150375939848,0.24060150375939848,0.24060150375939848,0.24060150375939848,layers_3_opt_RMSprop_act_tanh_epochs_5.h5
+macro avg,0.048120300751879695,0.2,0.07757575757575758,133.0,layers_3_opt_RMSprop_act_tanh_epochs_5.h5
+weighted avg,0.057889083611283844,0.24060150375939848,0.09332421964000912,133.0,layers_3_opt_RMSprop_act_tanh_epochs_5.h5
+TV,0.9523809523809523,1.0,0.975609756097561,40.0,layers_3_opt_RMSprop_act_tanh_epochs_10.h5
+Geyser,0.9642857142857143,1.0,0.9818181818181818,27.0,layers_3_opt_RMSprop_act_tanh_epochs_10.h5
+Refrigerator,0.9393939393939394,0.96875,0.9538461538461539,32.0,layers_3_opt_RMSprop_act_tanh_epochs_10.h5
+Washing Machine,0.9444444444444444,0.9444444444444444,0.9444444444444444,18.0,layers_3_opt_RMSprop_act_tanh_epochs_10.h5
+AC,1.0,0.75,0.8571428571428571,16.0,layers_3_opt_RMSprop_act_tanh_epochs_10.h5
+accuracy,0.9548872180451128,0.9548872180451128,0.9548872180451128,0.9548872180451128,layers_3_opt_RMSprop_act_tanh_epochs_10.h5
+macro avg,0.96010101010101,0.9326388888888889,0.9425722786698396,133.0,layers_3_opt_RMSprop_act_tanh_epochs_10.h5
+weighted avg,0.9563275070793867,0.9548872180451128,0.953164239025233,133.0,layers_3_opt_RMSprop_act_tanh_epochs_10.h5
+TV,0.9736842105263158,0.925,0.9487179487179487,40.0,layers_3_opt_RMSprop_act_tanh_epochs_20.h5
+Geyser,0.9230769230769231,0.8888888888888888,0.9056603773584906,27.0,layers_3_opt_RMSprop_act_tanh_epochs_20.h5
+Refrigerator,0.8823529411764706,0.9375,0.9090909090909091,32.0,layers_3_opt_RMSprop_act_tanh_epochs_20.h5
+Washing Machine,0.9,1.0,0.9473684210526315,18.0,layers_3_opt_RMSprop_act_tanh_epochs_20.h5
+AC,0.9333333333333333,0.875,0.9032258064516129,16.0,layers_3_opt_RMSprop_act_tanh_epochs_20.h5
+accuracy,0.924812030075188,0.924812030075188,0.924812030075188,0.924812030075188,layers_3_opt_RMSprop_act_tanh_epochs_20.h5
+macro avg,0.9224894816226085,0.9252777777777779,0.9228126925343185,133.0,layers_3_opt_RMSprop_act_tanh_epochs_20.h5
+weighted avg,0.9266095698880448,0.924812030075188,0.9247872309058607,133.0,layers_3_opt_RMSprop_act_tanh_epochs_20.h5
+TV,0.3007518796992481,1.0,0.4624277456647399,40.0,layers_3_opt_RMSprop_act_sigmoid_epochs_5.h5
+Geyser,0.0,0.0,0.0,27.0,layers_3_opt_RMSprop_act_sigmoid_epochs_5.h5
+Refrigerator,0.0,0.0,0.0,32.0,layers_3_opt_RMSprop_act_sigmoid_epochs_5.h5
+Washing Machine,0.0,0.0,0.0,18.0,layers_3_opt_RMSprop_act_sigmoid_epochs_5.h5
+AC,0.0,0.0,0.0,16.0,layers_3_opt_RMSprop_act_sigmoid_epochs_5.h5
+accuracy,0.3007518796992481,0.3007518796992481,0.3007518796992481,0.3007518796992481,layers_3_opt_RMSprop_act_sigmoid_epochs_5.h5
+macro avg,0.06015037593984962,0.2,0.09248554913294797,133.0,layers_3_opt_RMSprop_act_sigmoid_epochs_5.h5
+weighted avg,0.090451693142631,0.3007518796992481,0.13907601373375633,133.0,layers_3_opt_RMSprop_act_sigmoid_epochs_5.h5
+TV,0.3007518796992481,1.0,0.4624277456647399,40.0,layers_3_opt_RMSprop_act_sigmoid_epochs_10.h5
+Geyser,0.0,0.0,0.0,27.0,layers_3_opt_RMSprop_act_sigmoid_epochs_10.h5
+Refrigerator,0.0,0.0,0.0,32.0,layers_3_opt_RMSprop_act_sigmoid_epochs_10.h5
+Washing Machine,0.0,0.0,0.0,18.0,layers_3_opt_RMSprop_act_sigmoid_epochs_10.h5
+AC,0.0,0.0,0.0,16.0,layers_3_opt_RMSprop_act_sigmoid_epochs_10.h5
+accuracy,0.3007518796992481,0.3007518796992481,0.3007518796992481,0.3007518796992481,layers_3_opt_RMSprop_act_sigmoid_epochs_10.h5
+macro avg,0.06015037593984962,0.2,0.09248554913294797,133.0,layers_3_opt_RMSprop_act_sigmoid_epochs_10.h5
+weighted avg,0.090451693142631,0.3007518796992481,0.13907601373375633,133.0,layers_3_opt_RMSprop_act_sigmoid_epochs_10.h5
+TV,0.44155844155844154,0.85,0.5811965811965812,40.0,layers_3_opt_RMSprop_act_sigmoid_epochs_20.h5
+Geyser,0.42857142857142855,0.4444444444444444,0.43636363636363634,27.0,layers_3_opt_RMSprop_act_sigmoid_epochs_20.h5
+Refrigerator,0.7777777777777778,0.4375,0.56,32.0,layers_3_opt_RMSprop_act_sigmoid_epochs_20.h5
+Washing Machine,0.5,0.2777777777777778,0.35714285714285715,18.0,layers_3_opt_RMSprop_act_sigmoid_epochs_20.h5
+AC,0.0,0.0,0.0,16.0,layers_3_opt_RMSprop_act_sigmoid_epochs_20.h5
+accuracy,0.48872180451127817,0.48872180451127817,0.48872180451127817,0.48872180451127817,layers_3_opt_RMSprop_act_sigmoid_epochs_20.h5
+macro avg,0.4295815295815296,0.4019444444444444,0.386940614940615,133.0,layers_3_opt_RMSprop_act_sigmoid_epochs_20.h5
+weighted avg,0.4746064294936475,0.48872180451127817,0.44645302900942,133.0,layers_3_opt_RMSprop_act_sigmoid_epochs_20.h5
+TV,0.7857142857142857,0.55,0.6470588235294118,40.0,layers_3_opt_SGD_act_relu_epochs_5.h5
+Geyser,0.6666666666666666,0.6666666666666666,0.6666666666666666,27.0,layers_3_opt_SGD_act_relu_epochs_5.h5
+Refrigerator,0.47540983606557374,0.90625,0.6236559139784946,32.0,layers_3_opt_SGD_act_relu_epochs_5.h5
+Washing Machine,0.42857142857142855,0.3333333333333333,0.375,18.0,layers_3_opt_SGD_act_relu_epochs_5.h5
+AC,0.6666666666666666,0.125,0.21052631578947367,16.0,layers_3_opt_SGD_act_relu_epochs_5.h5
+accuracy,0.5789473684210527,0.5789473684210527,0.5789473684210527,0.5789473684210527,layers_3_opt_SGD_act_relu_epochs_5.h5
+macro avg,0.6046057767369242,0.5162500000000001,0.5045815439928093,133.0,layers_3_opt_SGD_act_relu_epochs_5.h5
+weighted avg,0.6242303651400163,0.5789473684210527,0.556073407827969,133.0,layers_3_opt_SGD_act_relu_epochs_5.h5
+TV,0.8,0.8,0.8,40.0,layers_3_opt_SGD_act_relu_epochs_10.h5
+Geyser,0.8148148148148148,0.8148148148148148,0.8148148148148148,27.0,layers_3_opt_SGD_act_relu_epochs_10.h5
+Refrigerator,0.7647058823529411,0.8125,0.7878787878787878,32.0,layers_3_opt_SGD_act_relu_epochs_10.h5
+Washing Machine,0.6842105263157895,0.7222222222222222,0.7027027027027027,18.0,layers_3_opt_SGD_act_relu_epochs_10.h5
+AC,0.8461538461538461,0.6875,0.7586206896551724,16.0,layers_3_opt_SGD_act_relu_epochs_10.h5
+accuracy,0.7819548872180451,0.7819548872180451,0.7819548872180451,0.7819548872180451,layers_3_opt_SGD_act_relu_epochs_10.h5
+macro avg,0.7819770139274783,0.7674074074074074,0.7728033990102956,133.0,layers_3_opt_SGD_act_relu_epochs_10.h5
+weighted avg,0.7843972875747357,0.7819548872180451,0.7819451195131777,133.0,layers_3_opt_SGD_act_relu_epochs_10.h5
+TV,0.8695652173913043,1.0,0.9302325581395349,40.0,layers_3_opt_SGD_act_relu_epochs_20.h5
+Geyser,0.96,0.8888888888888888,0.9230769230769231,27.0,layers_3_opt_SGD_act_relu_epochs_20.h5
+Refrigerator,0.9375,0.9375,0.9375,32.0,layers_3_opt_SGD_act_relu_epochs_20.h5
+Washing Machine,1.0,0.9444444444444444,0.9714285714285714,18.0,layers_3_opt_SGD_act_relu_epochs_20.h5
+AC,0.9230769230769231,0.75,0.8275862068965517,16.0,layers_3_opt_SGD_act_relu_epochs_20.h5
+accuracy,0.924812030075188,0.924812030075188,0.924812030075188,0.924812030075188,layers_3_opt_SGD_act_relu_epochs_20.h5
+macro avg,0.9380284280936454,0.9041666666666666,0.9179648519083162,133.0,layers_3_opt_SGD_act_relu_epochs_20.h5
+weighted avg,0.9283596952246839,0.924812030075188,0.9237554349226874,133.0,layers_3_opt_SGD_act_relu_epochs_20.h5
+TV,0.7857142857142857,0.825,0.8048780487804879,40.0,layers_3_opt_SGD_act_tanh_epochs_5.h5
+Geyser,0.6666666666666666,0.5925925925925926,0.6274509803921569,27.0,layers_3_opt_SGD_act_tanh_epochs_5.h5
+Refrigerator,0.6842105263157895,0.8125,0.7428571428571429,32.0,layers_3_opt_SGD_act_tanh_epochs_5.h5
+Washing Machine,0.625,0.5555555555555556,0.5882352941176471,18.0,layers_3_opt_SGD_act_tanh_epochs_5.h5
+AC,0.7692307692307693,0.625,0.6896551724137931,16.0,layers_3_opt_SGD_act_tanh_epochs_5.h5
+accuracy,0.7142857142857143,0.7142857142857143,0.7142857142857143,0.7142857142857143,layers_3_opt_SGD_act_tanh_epochs_5.h5
+macro avg,0.7061644495855022,0.6821296296296296,0.6906153277122457,133.0,layers_3_opt_SGD_act_tanh_epochs_5.h5
+weighted avg,0.7133909817922481,0.7142857142857143,0.710755225909584,133.0,layers_3_opt_SGD_act_tanh_epochs_5.h5
+TV,0.6530612244897959,0.8,0.7191011235955056,40.0,layers_3_opt_SGD_act_tanh_epochs_10.h5
+Geyser,0.6060606060606061,0.7407407407407407,0.6666666666666666,27.0,layers_3_opt_SGD_act_tanh_epochs_10.h5
+Refrigerator,0.6785714285714286,0.59375,0.6333333333333333,32.0,layers_3_opt_SGD_act_tanh_epochs_10.h5
+Washing Machine,0.8571428571428571,0.6666666666666666,0.75,18.0,layers_3_opt_SGD_act_tanh_epochs_10.h5
+AC,0.6666666666666666,0.375,0.48,16.0,layers_3_opt_SGD_act_tanh_epochs_10.h5
+accuracy,0.6691729323308271,0.6691729323308271,0.6691729323308271,0.6691729323308271,layers_3_opt_SGD_act_tanh_epochs_10.h5
+macro avg,0.6923005565862709,0.6352314814814815,0.6498202247191011,133.0,layers_3_opt_SGD_act_tanh_epochs_10.h5
+weighted avg,0.67891435453197,0.6691729323308271,0.6632384331615556,133.0,layers_3_opt_SGD_act_tanh_epochs_10.h5
+TV,0.8611111111111112,0.775,0.8157894736842105,40.0,layers_3_opt_SGD_act_tanh_epochs_20.h5
+Geyser,0.7714285714285715,1.0,0.8709677419354839,27.0,layers_3_opt_SGD_act_tanh_epochs_20.h5
+Refrigerator,0.8518518518518519,0.71875,0.7796610169491526,32.0,layers_3_opt_SGD_act_tanh_epochs_20.h5
+Washing Machine,0.8421052631578947,0.8888888888888888,0.8648648648648649,18.0,layers_3_opt_SGD_act_tanh_epochs_20.h5
+AC,0.875,0.875,0.875,16.0,layers_3_opt_SGD_act_tanh_epochs_20.h5
+accuracy,0.8345864661654135,0.8345864661654135,0.8345864661654135,0.8345864661654135,layers_3_opt_SGD_act_tanh_epochs_20.h5
+macro avg,0.8402993595098858,0.8515277777777778,0.8412566194867424,133.0,layers_3_opt_SGD_act_tanh_epochs_20.h5
+weighted avg,0.8397757133016334,0.8345864661654135,0.8320633690944882,133.0,layers_3_opt_SGD_act_tanh_epochs_20.h5
+TV,0.3007518796992481,1.0,0.4624277456647399,40.0,layers_3_opt_SGD_act_sigmoid_epochs_5.h5
+Geyser,0.0,0.0,0.0,27.0,layers_3_opt_SGD_act_sigmoid_epochs_5.h5
+Refrigerator,0.0,0.0,0.0,32.0,layers_3_opt_SGD_act_sigmoid_epochs_5.h5
+Washing Machine,0.0,0.0,0.0,18.0,layers_3_opt_SGD_act_sigmoid_epochs_5.h5
+AC,0.0,0.0,0.0,16.0,layers_3_opt_SGD_act_sigmoid_epochs_5.h5
+accuracy,0.3007518796992481,0.3007518796992481,0.3007518796992481,0.3007518796992481,layers_3_opt_SGD_act_sigmoid_epochs_5.h5
+macro avg,0.06015037593984962,0.2,0.09248554913294797,133.0,layers_3_opt_SGD_act_sigmoid_epochs_5.h5
+weighted avg,0.090451693142631,0.3007518796992481,0.13907601373375633,133.0,layers_3_opt_SGD_act_sigmoid_epochs_5.h5
+TV,0.3007518796992481,1.0,0.4624277456647399,40.0,layers_3_opt_SGD_act_sigmoid_epochs_10.h5
+Geyser,0.0,0.0,0.0,27.0,layers_3_opt_SGD_act_sigmoid_epochs_10.h5
+Refrigerator,0.0,0.0,0.0,32.0,layers_3_opt_SGD_act_sigmoid_epochs_10.h5
+Washing Machine,0.0,0.0,0.0,18.0,layers_3_opt_SGD_act_sigmoid_epochs_10.h5
+AC,0.0,0.0,0.0,16.0,layers_3_opt_SGD_act_sigmoid_epochs_10.h5
+accuracy,0.3007518796992481,0.3007518796992481,0.3007518796992481,0.3007518796992481,layers_3_opt_SGD_act_sigmoid_epochs_10.h5
+macro avg,0.06015037593984962,0.2,0.09248554913294797,133.0,layers_3_opt_SGD_act_sigmoid_epochs_10.h5
+weighted avg,0.090451693142631,0.3007518796992481,0.13907601373375633,133.0,layers_3_opt_SGD_act_sigmoid_epochs_10.h5
+TV,0.3007518796992481,1.0,0.4624277456647399,40.0,layers_3_opt_SGD_act_sigmoid_epochs_20.h5
+Geyser,0.0,0.0,0.0,27.0,layers_3_opt_SGD_act_sigmoid_epochs_20.h5
+Refrigerator,0.0,0.0,0.0,32.0,layers_3_opt_SGD_act_sigmoid_epochs_20.h5
+Washing Machine,0.0,0.0,0.0,18.0,layers_3_opt_SGD_act_sigmoid_epochs_20.h5
+AC,0.0,0.0,0.0,16.0,layers_3_opt_SGD_act_sigmoid_epochs_20.h5
+accuracy,0.3007518796992481,0.3007518796992481,0.3007518796992481,0.3007518796992481,layers_3_opt_SGD_act_sigmoid_epochs_20.h5
+macro avg,0.06015037593984962,0.2,0.09248554913294797,133.0,layers_3_opt_SGD_act_sigmoid_epochs_20.h5
+weighted avg,0.090451693142631,0.3007518796992481,0.13907601373375633,133.0,layers_3_opt_SGD_act_sigmoid_epochs_20.h5
+TV,0.9117647058823529,0.775,0.8378378378378378,40.0,layers_5_opt_adam_act_relu_epochs_5.h5
+Geyser,0.9047619047619048,0.7037037037037037,0.7916666666666666,27.0,layers_5_opt_adam_act_relu_epochs_5.h5
+Refrigerator,0.8,0.875,0.835820895522388,32.0,layers_5_opt_adam_act_relu_epochs_5.h5
+Washing Machine,0.53125,0.9444444444444444,0.68,18.0,layers_5_opt_adam_act_relu_epochs_5.h5
+AC,0.9090909090909091,0.625,0.7407407407407407,16.0,layers_5_opt_adam_act_relu_epochs_5.h5
+accuracy,0.7894736842105263,0.7894736842105263,0.7894736842105263,0.7894736842105263,layers_5_opt_adam_act_relu_epochs_5.h5
+macro avg,0.8113735039470333,0.7846296296296297,0.7772132281535267,133.0,layers_5_opt_adam_act_relu_epochs_5.h5
+weighted avg,0.8316324376640609,0.7894736842105263,0.7949370979103892,133.0,layers_5_opt_adam_act_relu_epochs_5.h5
+TV,0.8809523809523809,0.925,0.9024390243902439,40.0,layers_5_opt_adam_act_relu_epochs_10.h5
+Geyser,0.8181818181818182,1.0,0.9,27.0,layers_5_opt_adam_act_relu_epochs_10.h5
+Refrigerator,0.9666666666666667,0.90625,0.9354838709677419,32.0,layers_5_opt_adam_act_relu_epochs_10.h5
+Washing Machine,0.9375,0.8333333333333334,0.8823529411764706,18.0,layers_5_opt_adam_act_relu_epochs_10.h5
+AC,0.9166666666666666,0.6875,0.7857142857142857,16.0,layers_5_opt_adam_act_relu_epochs_10.h5
+accuracy,0.8947368421052632,0.8947368421052632,0.8947368421052632,0.8947368421052632,layers_5_opt_adam_act_relu_epochs_10.h5
+macro avg,0.9039935064935065,0.8704166666666666,0.8811980244497484,133.0,layers_5_opt_adam_act_relu_epochs_10.h5
+weighted avg,0.9007819874361229,0.8947368421052632,0.8931340327758086,133.0,layers_5_opt_adam_act_relu_epochs_10.h5
+TV,0.9302325581395349,1.0,0.963855421686747,40.0,layers_5_opt_adam_act_relu_epochs_20.h5
+Geyser,0.875,0.7777777777777778,0.8235294117647058,27.0,layers_5_opt_adam_act_relu_epochs_20.h5
+Refrigerator,0.9696969696969697,1.0,0.9846153846153847,32.0,layers_5_opt_adam_act_relu_epochs_20.h5
+Washing Machine,0.7777777777777778,0.7777777777777778,0.7777777777777778,18.0,layers_5_opt_adam_act_relu_epochs_20.h5
+AC,1.0,0.9375,0.967741935483871,16.0,layers_5_opt_adam_act_relu_epochs_20.h5
+accuracy,0.9172932330827067,0.9172932330827067,0.9172932330827067,0.9172932330827067,layers_5_opt_adam_act_relu_epochs_20.h5
+macro avg,0.9105414611228564,0.898611111111111,0.9035039862656973,133.0,layers_5_opt_adam_act_relu_epochs_20.h5
+weighted avg,0.9162752282397326,0.9172932330827067,0.9156471748913623,133.0,layers_5_opt_adam_act_relu_epochs_20.h5
+TV,0.8292682926829268,0.85,0.8395061728395061,40.0,layers_5_opt_adam_act_tanh_epochs_5.h5
+Geyser,0.8947368421052632,0.6296296296296297,0.7391304347826086,27.0,layers_5_opt_adam_act_tanh_epochs_5.h5
+Refrigerator,0.8235294117647058,0.875,0.8484848484848485,32.0,layers_5_opt_adam_act_tanh_epochs_5.h5
+Washing Machine,0.7894736842105263,0.8333333333333334,0.8108108108108109,18.0,layers_5_opt_adam_act_tanh_epochs_5.h5
+AC,0.7,0.875,0.7777777777777778,16.0,layers_5_opt_adam_act_tanh_epochs_5.h5
+accuracy,0.8120300751879699,0.8120300751879699,0.8120300751879699,0.8120300751879699,layers_5_opt_adam_act_tanh_epochs_5.h5
+macro avg,0.8074016461526845,0.8125925925925926,0.8031420089391105,133.0,layers_5_opt_adam_act_tanh_epochs_5.h5
+weighted avg,0.820241307792626,0.8120300751879699,0.8099798710019915,133.0,layers_5_opt_adam_act_tanh_epochs_5.h5
+TV,0.8636363636363636,0.95,0.9047619047619048,40.0,layers_5_opt_adam_act_tanh_epochs_10.h5
+Geyser,0.9230769230769231,0.8888888888888888,0.9056603773584906,27.0,layers_5_opt_adam_act_tanh_epochs_10.h5
+Refrigerator,0.8285714285714286,0.90625,0.8656716417910447,32.0,layers_5_opt_adam_act_tanh_epochs_10.h5
+Washing Machine,0.7894736842105263,0.8333333333333334,0.8108108108108109,18.0,layers_5_opt_adam_act_tanh_epochs_10.h5
+AC,1.0,0.5625,0.72,16.0,layers_5_opt_adam_act_tanh_epochs_10.h5
+accuracy,0.8646616541353384,0.8646616541353384,0.8646616541353384,0.8646616541353384,layers_5_opt_adam_act_tanh_epochs_10.h5
+macro avg,0.8809516798990483,0.8281944444444445,0.8413809469444502,133.0,layers_5_opt_adam_act_tanh_epochs_10.h5
+weighted avg,0.8736341616436591,0.8646616541353384,0.8605969436922064,133.0,layers_5_opt_adam_act_tanh_epochs_10.h5
+TV,0.8780487804878049,0.9,0.8888888888888888,40.0,layers_5_opt_adam_act_tanh_epochs_20.h5
+Geyser,0.8,0.8888888888888888,0.8421052631578947,27.0,layers_5_opt_adam_act_tanh_epochs_20.h5
+Refrigerator,0.84,0.65625,0.7368421052631579,32.0,layers_5_opt_adam_act_tanh_epochs_20.h5
+Washing Machine,0.8095238095238095,0.9444444444444444,0.8717948717948718,18.0,layers_5_opt_adam_act_tanh_epochs_20.h5
+AC,0.875,0.875,0.875,16.0,layers_5_opt_adam_act_tanh_epochs_20.h5
+accuracy,0.8421052631578947,0.8421052631578947,0.8421052631578947,0.8421052631578947,layers_5_opt_adam_act_tanh_epochs_20.h5
+macro avg,0.8405145180023229,0.8529166666666667,0.8429262258209625,133.0,layers_5_opt_adam_act_tanh_epochs_20.h5
+weighted avg,0.8434088706085773,0.8421052631578947,0.8388244565529884,133.0,layers_5_opt_adam_act_tanh_epochs_20.h5
+TV,0.3007518796992481,1.0,0.4624277456647399,40.0,layers_5_opt_adam_act_sigmoid_epochs_5.h5
+Geyser,0.0,0.0,0.0,27.0,layers_5_opt_adam_act_sigmoid_epochs_5.h5
+Refrigerator,0.0,0.0,0.0,32.0,layers_5_opt_adam_act_sigmoid_epochs_5.h5
+Washing Machine,0.0,0.0,0.0,18.0,layers_5_opt_adam_act_sigmoid_epochs_5.h5
+AC,0.0,0.0,0.0,16.0,layers_5_opt_adam_act_sigmoid_epochs_5.h5
+accuracy,0.3007518796992481,0.3007518796992481,0.3007518796992481,0.3007518796992481,layers_5_opt_adam_act_sigmoid_epochs_5.h5
+macro avg,0.06015037593984962,0.2,0.09248554913294797,133.0,layers_5_opt_adam_act_sigmoid_epochs_5.h5
+weighted avg,0.090451693142631,0.3007518796992481,0.13907601373375633,133.0,layers_5_opt_adam_act_sigmoid_epochs_5.h5
+TV,0.3007518796992481,1.0,0.4624277456647399,40.0,layers_5_opt_adam_act_sigmoid_epochs_10.h5
+Geyser,0.0,0.0,0.0,27.0,layers_5_opt_adam_act_sigmoid_epochs_10.h5
+Refrigerator,0.0,0.0,0.0,32.0,layers_5_opt_adam_act_sigmoid_epochs_10.h5
+Washing Machine,0.0,0.0,0.0,18.0,layers_5_opt_adam_act_sigmoid_epochs_10.h5
+AC,0.0,0.0,0.0,16.0,layers_5_opt_adam_act_sigmoid_epochs_10.h5
+accuracy,0.3007518796992481,0.3007518796992481,0.3007518796992481,0.3007518796992481,layers_5_opt_adam_act_sigmoid_epochs_10.h5
+macro avg,0.06015037593984962,0.2,0.09248554913294797,133.0,layers_5_opt_adam_act_sigmoid_epochs_10.h5
+weighted avg,0.090451693142631,0.3007518796992481,0.13907601373375633,133.0,layers_5_opt_adam_act_sigmoid_epochs_10.h5
+TV,0.3007518796992481,1.0,0.4624277456647399,40.0,layers_5_opt_adam_act_sigmoid_epochs_20.h5
+Geyser,0.0,0.0,0.0,27.0,layers_5_opt_adam_act_sigmoid_epochs_20.h5
+Refrigerator,0.0,0.0,0.0,32.0,layers_5_opt_adam_act_sigmoid_epochs_20.h5
+Washing Machine,0.0,0.0,0.0,18.0,layers_5_opt_adam_act_sigmoid_epochs_20.h5
+AC,0.0,0.0,0.0,16.0,layers_5_opt_adam_act_sigmoid_epochs_20.h5
+accuracy,0.3007518796992481,0.3007518796992481,0.3007518796992481,0.3007518796992481,layers_5_opt_adam_act_sigmoid_epochs_20.h5
+macro avg,0.06015037593984962,0.2,0.09248554913294797,133.0,layers_5_opt_adam_act_sigmoid_epochs_20.h5
+weighted avg,0.090451693142631,0.3007518796992481,0.13907601373375633,133.0,layers_5_opt_adam_act_sigmoid_epochs_20.h5
+TV,0.8717948717948718,0.85,0.8607594936708861,40.0,layers_5_opt_RMSprop_act_relu_epochs_5.h5
+Geyser,0.7058823529411765,0.8888888888888888,0.7868852459016393,27.0,layers_5_opt_RMSprop_act_relu_epochs_5.h5
+Refrigerator,0.9629629629629629,0.8125,0.8813559322033898,32.0,layers_5_opt_RMSprop_act_relu_epochs_5.h5
+Washing Machine,0.7,0.7777777777777778,0.7368421052631579,18.0,layers_5_opt_RMSprop_act_relu_epochs_5.h5
+AC,0.7692307692307693,0.625,0.6896551724137931,16.0,layers_5_opt_RMSprop_act_relu_epochs_5.h5
+accuracy,0.8120300751879699,0.8120300751879699,0.8120300751879699,0.8120300751879699,layers_5_opt_RMSprop_act_relu_epochs_5.h5
+macro avg,0.801974191385956,0.7908333333333333,0.7910995898905733,133.0,layers_5_opt_RMSprop_act_relu_epochs_5.h5
+weighted avg,0.8244595904038629,0.8120300751879699,0.8133632471432009,133.0,layers_5_opt_RMSprop_act_relu_epochs_5.h5
+TV,0.8918918918918919,0.825,0.8571428571428571,40.0,layers_5_opt_RMSprop_act_relu_epochs_10.h5
+Geyser,0.7931034482758621,0.8518518518518519,0.8214285714285714,27.0,layers_5_opt_RMSprop_act_relu_epochs_10.h5
+Refrigerator,0.8709677419354839,0.84375,0.8571428571428571,32.0,layers_5_opt_RMSprop_act_relu_epochs_10.h5
+Washing Machine,0.8125,0.7222222222222222,0.7647058823529411,18.0,layers_5_opt_RMSprop_act_relu_epochs_10.h5
+AC,0.65,0.8125,0.7222222222222222,16.0,layers_5_opt_RMSprop_act_relu_epochs_10.h5
+accuracy,0.8195488721804511,0.8195488721804511,0.8195488721804511,0.8195488721804511,layers_5_opt_RMSprop_act_relu_epochs_10.h5
+macro avg,0.8036926164206475,0.8110648148148147,0.8045284780578899,133.0,layers_5_opt_RMSprop_act_relu_epochs_10.h5
+weighted avg,0.826958169331274,0.8195488721804511,0.8211512675245537,133.0,layers_5_opt_RMSprop_act_relu_epochs_10.h5
+TV,0.926829268292683,0.95,0.9382716049382716,40.0,layers_5_opt_RMSprop_act_relu_epochs_20.h5
+Geyser,0.92,0.8518518518518519,0.8846153846153846,27.0,layers_5_opt_RMSprop_act_relu_epochs_20.h5
+Refrigerator,0.9393939393939394,0.96875,0.9538461538461539,32.0,layers_5_opt_RMSprop_act_relu_epochs_20.h5
+Washing Machine,0.7391304347826086,0.9444444444444444,0.8292682926829268,18.0,layers_5_opt_RMSprop_act_relu_epochs_20.h5
+AC,1.0,0.6875,0.8148148148148148,16.0,layers_5_opt_RMSprop_act_relu_epochs_20.h5
+accuracy,0.9022556390977443,0.9022556390977443,0.9022556390977443,0.9022556390977443,layers_5_opt_RMSprop_act_relu_epochs_20.h5
+macro avg,0.9050707284938462,0.8805092592592592,0.8841632501795103,133.0,layers_5_opt_RMSprop_act_relu_epochs_20.h5
+weighted avg,0.911865598634589,0.9022556390977443,0.9015219760191947,133.0,layers_5_opt_RMSprop_act_relu_epochs_20.h5
+TV,0.8857142857142857,0.775,0.8266666666666667,40.0,layers_5_opt_RMSprop_act_tanh_epochs_5.h5
+Geyser,0.6666666666666666,0.8148148148148148,0.7333333333333333,27.0,layers_5_opt_RMSprop_act_tanh_epochs_5.h5
+Refrigerator,0.6333333333333333,0.59375,0.6129032258064516,32.0,layers_5_opt_RMSprop_act_tanh_epochs_5.h5
+Washing Machine,0.6666666666666666,0.5555555555555556,0.6060606060606061,18.0,layers_5_opt_RMSprop_act_tanh_epochs_5.h5
+AC,0.6,0.75,0.6666666666666666,16.0,layers_5_opt_RMSprop_act_tanh_epochs_5.h5
+accuracy,0.706766917293233,0.706766917293233,0.706766917293233,0.706766917293233,layers_5_opt_RMSprop_act_tanh_epochs_5.h5
+macro avg,0.6904761904761905,0.6978240740740741,0.6891260997067448,133.0,layers_5_opt_RMSprop_act_tanh_epochs_5.h5
+weighted avg,0.7165055495882563,0.706766917293233,0.7071829132949675,133.0,layers_5_opt_RMSprop_act_tanh_epochs_5.h5
+TV,0.926829268292683,0.95,0.9382716049382716,40.0,layers_5_opt_RMSprop_act_tanh_epochs_10.h5
+Geyser,0.88,0.8148148148148148,0.8461538461538461,27.0,layers_5_opt_RMSprop_act_tanh_epochs_10.h5
+Refrigerator,0.8928571428571429,0.78125,0.8333333333333334,32.0,layers_5_opt_RMSprop_act_tanh_epochs_10.h5
+Washing Machine,0.7272727272727273,0.8888888888888888,0.8,18.0,layers_5_opt_RMSprop_act_tanh_epochs_10.h5
+AC,0.7058823529411765,0.75,0.7272727272727273,16.0,layers_5_opt_RMSprop_act_tanh_epochs_10.h5
+accuracy,0.849624060150376,0.849624060150376,0.849624060150376,0.849624060150376,layers_5_opt_RMSprop_act_tanh_epochs_10.h5
+macro avg,0.826568298272746,0.8369907407407406,0.8290063023396357,133.0,layers_5_opt_RMSprop_act_tanh_epochs_10.h5
+weighted avg,0.8555610980534122,0.849624060150376,0.8502259274189099,133.0,layers_5_opt_RMSprop_act_tanh_epochs_10.h5
+TV,0.7916666666666666,0.95,0.8636363636363636,40.0,layers_5_opt_RMSprop_act_tanh_epochs_20.h5
+Geyser,0.8518518518518519,0.8518518518518519,0.8518518518518519,27.0,layers_5_opt_RMSprop_act_tanh_epochs_20.h5
+Refrigerator,0.9285714285714286,0.8125,0.8666666666666667,32.0,layers_5_opt_RMSprop_act_tanh_epochs_20.h5
+Washing Machine,0.8095238095238095,0.9444444444444444,0.8717948717948718,18.0,layers_5_opt_RMSprop_act_tanh_epochs_20.h5
+AC,1.0,0.5625,0.72,16.0,layers_5_opt_RMSprop_act_tanh_epochs_20.h5
+accuracy,0.849624060150376,0.849624060150376,0.849624060150376,0.849624060150376,layers_5_opt_RMSprop_act_tanh_epochs_20.h5
+macro avg,0.8763227513227513,0.8242592592592592,0.8347899507899508,133.0,layers_5_opt_RMSprop_act_tanh_epochs_20.h5
+weighted avg,0.8643036161833154,0.849624060150376,0.845797711060869,133.0,layers_5_opt_RMSprop_act_tanh_epochs_20.h5
+TV,0.3007518796992481,1.0,0.4624277456647399,40.0,layers_5_opt_RMSprop_act_sigmoid_epochs_5.h5
+Geyser,0.0,0.0,0.0,27.0,layers_5_opt_RMSprop_act_sigmoid_epochs_5.h5
+Refrigerator,0.0,0.0,0.0,32.0,layers_5_opt_RMSprop_act_sigmoid_epochs_5.h5
+Washing Machine,0.0,0.0,0.0,18.0,layers_5_opt_RMSprop_act_sigmoid_epochs_5.h5
+AC,0.0,0.0,0.0,16.0,layers_5_opt_RMSprop_act_sigmoid_epochs_5.h5
+accuracy,0.3007518796992481,0.3007518796992481,0.3007518796992481,0.3007518796992481,layers_5_opt_RMSprop_act_sigmoid_epochs_5.h5
+macro avg,0.06015037593984962,0.2,0.09248554913294797,133.0,layers_5_opt_RMSprop_act_sigmoid_epochs_5.h5
+weighted avg,0.090451693142631,0.3007518796992481,0.13907601373375633,133.0,layers_5_opt_RMSprop_act_sigmoid_epochs_5.h5
+TV,0.3007518796992481,1.0,0.4624277456647399,40.0,layers_5_opt_RMSprop_act_sigmoid_epochs_10.h5
+Geyser,0.0,0.0,0.0,27.0,layers_5_opt_RMSprop_act_sigmoid_epochs_10.h5
+Refrigerator,0.0,0.0,0.0,32.0,layers_5_opt_RMSprop_act_sigmoid_epochs_10.h5
+Washing Machine,0.0,0.0,0.0,18.0,layers_5_opt_RMSprop_act_sigmoid_epochs_10.h5
+AC,0.0,0.0,0.0,16.0,layers_5_opt_RMSprop_act_sigmoid_epochs_10.h5
+accuracy,0.3007518796992481,0.3007518796992481,0.3007518796992481,0.3007518796992481,layers_5_opt_RMSprop_act_sigmoid_epochs_10.h5
+macro avg,0.06015037593984962,0.2,0.09248554913294797,133.0,layers_5_opt_RMSprop_act_sigmoid_epochs_10.h5
+weighted avg,0.090451693142631,0.3007518796992481,0.13907601373375633,133.0,layers_5_opt_RMSprop_act_sigmoid_epochs_10.h5
+TV,0.3007518796992481,1.0,0.4624277456647399,40.0,layers_5_opt_RMSprop_act_sigmoid_epochs_20.h5
+Geyser,0.0,0.0,0.0,27.0,layers_5_opt_RMSprop_act_sigmoid_epochs_20.h5
+Refrigerator,0.0,0.0,0.0,32.0,layers_5_opt_RMSprop_act_sigmoid_epochs_20.h5
+Washing Machine,0.0,0.0,0.0,18.0,layers_5_opt_RMSprop_act_sigmoid_epochs_20.h5
+AC,0.0,0.0,0.0,16.0,layers_5_opt_RMSprop_act_sigmoid_epochs_20.h5
+accuracy,0.3007518796992481,0.3007518796992481,0.3007518796992481,0.3007518796992481,layers_5_opt_RMSprop_act_sigmoid_epochs_20.h5
+macro avg,0.06015037593984962,0.2,0.09248554913294797,133.0,layers_5_opt_RMSprop_act_sigmoid_epochs_20.h5
+weighted avg,0.090451693142631,0.3007518796992481,0.13907601373375633,133.0,layers_5_opt_RMSprop_act_sigmoid_epochs_20.h5
+TV,0.5535714285714286,0.775,0.6458333333333334,40.0,layers_5_opt_SGD_act_relu_epochs_5.h5
+Geyser,0.4857142857142857,0.6296296296296297,0.5483870967741935,27.0,layers_5_opt_SGD_act_relu_epochs_5.h5
+Refrigerator,0.65,0.8125,0.7222222222222222,32.0,layers_5_opt_SGD_act_relu_epochs_5.h5
+Washing Machine,0.5,0.05555555555555555,0.1,18.0,layers_5_opt_SGD_act_relu_epochs_5.h5
+AC,0.0,0.0,0.0,16.0,layers_5_opt_SGD_act_relu_epochs_5.h5
+accuracy,0.5639097744360902,0.5639097744360902,0.5639097744360902,0.5639097744360902,layers_5_opt_SGD_act_relu_epochs_5.h5
+macro avg,0.4378571428571429,0.454537037037037,0.40328853046594987,133.0,layers_5_opt_SGD_act_relu_epochs_5.h5
+weighted avg,0.48915145005370575,0.5639097744360902,0.49286388013043364,133.0,layers_5_opt_SGD_act_relu_epochs_5.h5
+TV,0.5967741935483871,0.925,0.7254901960784313,40.0,layers_5_opt_SGD_act_relu_epochs_10.h5
+Geyser,0.7083333333333334,0.6296296296296297,0.6666666666666666,27.0,layers_5_opt_SGD_act_relu_epochs_10.h5
+Refrigerator,0.7692307692307693,0.625,0.6896551724137931,32.0,layers_5_opt_SGD_act_relu_epochs_10.h5
+Washing Machine,0.5294117647058824,0.5,0.5142857142857142,18.0,layers_5_opt_SGD_act_relu_epochs_10.h5
+AC,0.75,0.1875,0.3,16.0,layers_5_opt_SGD_act_relu_epochs_10.h5
+accuracy,0.6466165413533834,0.6466165413533834,0.6466165413533834,0.6466165413533834,layers_5_opt_SGD_act_relu_epochs_10.h5
+macro avg,0.6707500121636744,0.5734259259259259,0.579219549888921,133.0,layers_5_opt_SGD_act_relu_epochs_10.h5
+weighted avg,0.6702313091881653,0.6466165413533834,0.6251557610339961,133.0,layers_5_opt_SGD_act_relu_epochs_10.h5
+TV,0.6744186046511628,0.725,0.6987951807228916,40.0,layers_5_opt_SGD_act_relu_epochs_20.h5
+Geyser,0.631578947368421,0.8888888888888888,0.7384615384615385,27.0,layers_5_opt_SGD_act_relu_epochs_20.h5
+Refrigerator,0.75,0.75,0.75,32.0,layers_5_opt_SGD_act_relu_epochs_20.h5
+Washing Machine,0.6428571428571429,0.5,0.5625,18.0,layers_5_opt_SGD_act_relu_epochs_20.h5
+AC,0.3333333333333333,0.125,0.18181818181818182,16.0,layers_5_opt_SGD_act_relu_epochs_20.h5
+accuracy,0.6616541353383458,0.6616541353383458,0.6616541353383458,0.6616541353383458,layers_5_opt_SGD_act_relu_epochs_20.h5
+macro avg,0.606437605642012,0.5977777777777777,0.5863149802005223,133.0,layers_5_opt_SGD_act_relu_epochs_20.h5
+weighted avg,0.6386025388703441,0.6616541353383458,0.6385290201238203,133.0,layers_5_opt_SGD_act_relu_epochs_20.h5
+TV,0.5238095238095238,0.825,0.6407766990291263,40.0,layers_5_opt_SGD_act_tanh_epochs_5.h5
+Geyser,0.5,0.5185185185185185,0.509090909090909,27.0,layers_5_opt_SGD_act_tanh_epochs_5.h5
+Refrigerator,0.696969696969697,0.71875,0.7076923076923077,32.0,layers_5_opt_SGD_act_tanh_epochs_5.h5
+Washing Machine,0.875,0.3888888888888889,0.5384615384615384,18.0,layers_5_opt_SGD_act_tanh_epochs_5.h5
+AC,1.0,0.0625,0.11764705882352941,16.0,layers_5_opt_SGD_act_tanh_epochs_5.h5
+accuracy,0.5864661654135338,0.5864661654135338,0.5864661654135338,0.5864661654135338,layers_5_opt_SGD_act_tanh_epochs_5.h5
+macro avg,0.7191558441558442,0.5027314814814814,0.5027337026194821,133.0,layers_5_opt_SGD_act_tanh_epochs_5.h5
+weighted avg,0.6654542199654981,0.5864661654135338,0.5533634359868993,133.0,layers_5_opt_SGD_act_tanh_epochs_5.h5
+TV,0.7954545454545454,0.875,0.8333333333333334,40.0,layers_5_opt_SGD_act_tanh_epochs_10.h5
+Geyser,0.5789473684210527,0.8148148148148148,0.676923076923077,27.0,layers_5_opt_SGD_act_tanh_epochs_10.h5
+Refrigerator,0.9166666666666666,0.6875,0.7857142857142857,32.0,layers_5_opt_SGD_act_tanh_epochs_10.h5
+Washing Machine,0.5384615384615384,0.3888888888888889,0.45161290322580644,18.0,layers_5_opt_SGD_act_tanh_epochs_10.h5
+AC,0.7857142857142857,0.6875,0.7333333333333333,16.0,layers_5_opt_SGD_act_tanh_epochs_10.h5
+accuracy,0.7293233082706767,0.7293233082706767,0.7293233082706767,0.7293233082706767,layers_5_opt_SGD_act_tanh_epochs_10.h5
+macro avg,0.7230488809436177,0.6907407407407408,0.6961833865059671,133.0,layers_5_opt_SGD_act_tanh_epochs_10.h5
+weighted avg,0.7447130102452618,0.7293233082706767,0.7264321740188827,133.0,layers_5_opt_SGD_act_tanh_epochs_10.h5
+TV,0.9393939393939394,0.775,0.8493150684931506,40.0,layers_5_opt_SGD_act_tanh_epochs_20.h5
+Geyser,0.696969696969697,0.8518518518518519,0.7666666666666667,27.0,layers_5_opt_SGD_act_tanh_epochs_20.h5
+Refrigerator,0.7567567567567568,0.875,0.8115942028985508,32.0,layers_5_opt_SGD_act_tanh_epochs_20.h5
+Washing Machine,0.6875,0.6111111111111112,0.6470588235294118,18.0,layers_5_opt_SGD_act_tanh_epochs_20.h5
+AC,0.7857142857142857,0.6875,0.7333333333333333,16.0,layers_5_opt_SGD_act_tanh_epochs_20.h5
+accuracy,0.7819548872180451,0.7819548872180451,0.7819548872180451,0.7819548872180451,layers_5_opt_SGD_act_tanh_epochs_20.h5
+macro avg,0.7732669357669357,0.7600925925925927,0.7615936189842226,133.0,layers_5_opt_SGD_act_tanh_epochs_20.h5
+weighted avg,0.7936585276810841,0.7819548872180451,0.7821354089424241,133.0,layers_5_opt_SGD_act_tanh_epochs_20.h5
+TV,0.3007518796992481,1.0,0.4624277456647399,40.0,layers_5_opt_SGD_act_sigmoid_epochs_5.h5
+Geyser,0.0,0.0,0.0,27.0,layers_5_opt_SGD_act_sigmoid_epochs_5.h5
+Refrigerator,0.0,0.0,0.0,32.0,layers_5_opt_SGD_act_sigmoid_epochs_5.h5
+Washing Machine,0.0,0.0,0.0,18.0,layers_5_opt_SGD_act_sigmoid_epochs_5.h5
+AC,0.0,0.0,0.0,16.0,layers_5_opt_SGD_act_sigmoid_epochs_5.h5
+accuracy,0.3007518796992481,0.3007518796992481,0.3007518796992481,0.3007518796992481,layers_5_opt_SGD_act_sigmoid_epochs_5.h5
+macro avg,0.06015037593984962,0.2,0.09248554913294797,133.0,layers_5_opt_SGD_act_sigmoid_epochs_5.h5
+weighted avg,0.090451693142631,0.3007518796992481,0.13907601373375633,133.0,layers_5_opt_SGD_act_sigmoid_epochs_5.h5
+TV,0.3007518796992481,1.0,0.4624277456647399,40.0,layers_5_opt_SGD_act_sigmoid_epochs_10.h5
+Geyser,0.0,0.0,0.0,27.0,layers_5_opt_SGD_act_sigmoid_epochs_10.h5
+Refrigerator,0.0,0.0,0.0,32.0,layers_5_opt_SGD_act_sigmoid_epochs_10.h5
+Washing Machine,0.0,0.0,0.0,18.0,layers_5_opt_SGD_act_sigmoid_epochs_10.h5
+AC,0.0,0.0,0.0,16.0,layers_5_opt_SGD_act_sigmoid_epochs_10.h5
+accuracy,0.3007518796992481,0.3007518796992481,0.3007518796992481,0.3007518796992481,layers_5_opt_SGD_act_sigmoid_epochs_10.h5
+macro avg,0.06015037593984962,0.2,0.09248554913294797,133.0,layers_5_opt_SGD_act_sigmoid_epochs_10.h5
+weighted avg,0.090451693142631,0.3007518796992481,0.13907601373375633,133.0,layers_5_opt_SGD_act_sigmoid_epochs_10.h5
+TV,0.3007518796992481,1.0,0.4624277456647399,40.0,layers_5_opt_SGD_act_sigmoid_epochs_20.h5
+Geyser,0.0,0.0,0.0,27.0,layers_5_opt_SGD_act_sigmoid_epochs_20.h5
+Refrigerator,0.0,0.0,0.0,32.0,layers_5_opt_SGD_act_sigmoid_epochs_20.h5
+Washing Machine,0.0,0.0,0.0,18.0,layers_5_opt_SGD_act_sigmoid_epochs_20.h5
+AC,0.0,0.0,0.0,16.0,layers_5_opt_SGD_act_sigmoid_epochs_20.h5
+accuracy,0.3007518796992481,0.3007518796992481,0.3007518796992481,0.3007518796992481,layers_5_opt_SGD_act_sigmoid_epochs_20.h5
+macro avg,0.06015037593984962,0.2,0.09248554913294797,133.0,layers_5_opt_SGD_act_sigmoid_epochs_20.h5
+weighted avg,0.090451693142631,0.3007518796992481,0.13907601373375633,133.0,layers_5_opt_SGD_act_sigmoid_epochs_20.h5
