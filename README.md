@@ -17,8 +17,8 @@ https://drive.google.com/file/d/1nArzCdPYM9w53j4xRomryNdV_cWQVf_f/view?usp=shari
 Project Demo for Cloud Computing
 https://drive.google.com/file/d/1attbzoANC-CyCHonpK_RYFZZ3uv0TrR3/view?usp=sharing
 
-81 experimentation model:
+81 experimentation models:
 https://drive.google.com/drive/folders/1FybZy-We37BIWCyLYjLZ0HVdaAzULu6k?usp=sharing
 
-Machine learning Course Demo:
+Machine learning Course project Demo:
 https://www.awesomescreenshot.com/video/33996252?key=4dfaf33a89579a0b9078734547f01904
