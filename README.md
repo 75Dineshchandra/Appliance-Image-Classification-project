@@ -21,4 +21,4 @@ https://drive.google.com/file/d/1attbzoANC-CyCHonpK_RYFZZ3uv0TrR3/view?usp=shari
 https://drive.google.com/drive/folders/1FybZy-We37BIWCyLYjLZ0HVdaAzULu6k?usp=sharing
 
 Machine learning Course project Demo:
-https://www.awesomescreenshot.com/video/33996252?key=4dfaf33a89579a0b9078734547f01904
+https://www.awesomescreenshot.com/video/34310274?key=82d79065cad829ab8752746b58c6ad04
