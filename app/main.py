@@ -1,32 +1,42 @@
-from fastapi import FastAPI, File, UploadFile
-import tensorflow as tf
+from fastapi import FastAPI, UploadFile, File
+from PIL import Image
 import numpy as np
-import cv2
-import os
+import tensorflow as tf
+import io
 
 app = FastAPI()
 
-MODEL_PATH = "models/best_model.h5"
+model = tf.keras.models.load_model("app/image_classifier_mc.h5")
 
-model = tf.keras.models.load_model(MODEL_PATH)
+class_labels = {
+    2: 'TV',
+    4: 'Geyser',
+    1: 'Refrigerator',
+    3: 'Washing Machine',
+    0: 'AC'
+}
 
-CLASS_NAMES = os.listdir("data/train")
-
-@app.get("/")
-def read_root():
-    return {"message": "Appliance Image Classifier API"}
+IMG_SIZE = 256  # MUST match training
 
 @app.post("/predict")
 async def predict(file: UploadFile = File(...)):
-    contents = await file.read()
+    try:
+        image_bytes = await file.read()
+        image = Image.open(io.BytesIO(image_bytes)).convert("RGB")
 
-    nparr = np.frombuffer(contents, np.uint8)
-    img = cv2.imdecode(nparr, cv2.IMREAD_COLOR)
-    img = cv2.resize(img, (256, 256))
-    img = img / 255.0
-    img = np.expand_dims(img, axis=0)
+        image = image.resize((IMG_SIZE, IMG_SIZE))
+        image = np.array(image) / 255.0
+        image = np.expand_dims(image, axis=0)
 
-    prediction = model.predict(img)
-    predicted_class = CLASS_NAMES[np.argmax(prediction)]
+        prediction = model.predict(image)
+        predicted_class = np.argmax(prediction)
 
-    return {"prediction": predicted_class}
+        predicted_label = class_labels.get(predicted_class, "Unknown")
+
+        return {
+            "prediction": predicted_label,
+            "confidence": float(np.max(prediction))
+        }
+
+    except Exception as e:
+        return {"error": str(e)}
