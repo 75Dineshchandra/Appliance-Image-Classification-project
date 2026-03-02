@@ -1,5 +1,9 @@
 mlruns/
 __pycache__/
 *.pyc
-data/*
+
+data/train/*
 models/*
+
+!data/train.dvc
+!models/best_model.h5.dvc
