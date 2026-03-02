@@ -1,5 +1,7 @@
 # Appliance-Image-Classification-project
 
+Deployment: https://appliance-image-classification-project.onrender.com/docs
+
 all the below files too big in size hence they are provided as drive files
 
 Test Images (almost 2000 samples) in drive 
