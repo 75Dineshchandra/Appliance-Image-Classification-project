@@ -1,6 +1,9 @@
+tensorflow-cpu
+mlflow
+dvc
 fastapi
 uvicorn
-tensorflow-cpu
-pillow
+opencv-python
 numpy
+pandas
 python-multipart

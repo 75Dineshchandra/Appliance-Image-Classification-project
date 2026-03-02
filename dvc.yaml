@@ -1,0 +1,8 @@
+stages:
+  train:
+    cmd: python train.py
+    deps:
+      - train.py
+      - data/train
+    outs:
+      - models/best_model.h5
